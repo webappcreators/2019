@@ -3,8 +3,11 @@
 - 今回の wac 勉強会の資料
 
 ## 開発環境について
-- サーバー：さくらVPS
-- 使用言語：Python
+- バージョン管理システム：[Github](https://github.com/)
+- サーバー：[さくらVPSサーバー](https://vps.sakura.ad.jp/)
+一番安価なプランを契約して使用する。
+
+- 使用言語：Python3
 
 ## 開発ツールの紹介、準備
 - Github
