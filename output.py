@@ -1,14 +1,29 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+import sys
+import datetime
+import os
+import subprocess
 
 #sysというライブラリを使って、コマンドで入力した引数を取得しています
-import sys
 #argsという配列に取得した引数を格納しています
 args = sys.argv
 
 #現在の時間を取得しています。
-import datetime
 today = str(datetime.datetime.now())
+
+#osというライブラリで現在のカレントディレクトリのパスを取得する
+#現在のパスに作成された「test_py.html」のパスを作成する
+path = os.getcwd() + "/test_py.html"
+
+#ターミナルで入力するコマンドを作成する
+cmd = 'open ' + path
+
+#作成するファイルの存在確認をする
+#ファイルが存在する場合は処理を中止
+if os.path.exists(path):
+    print("ファイルがすでに存在します。")
+    sys.exit()
 
 #新規で「test_py.html」というhtmlファイルを作成して、「w」書き込みを行います
 f = open('test_py.html','w')
@@ -21,8 +36,8 @@ f.write("""
 <head><title>Web App Creators</title></head>
 <body>
 <h1>
-これはサーバの実行結果として生成されたHTMLです<br>
-今日は%sです
+これはPythonの実行結果として生成されたHTMLです<br>
+現在時刻は%sです
 </h1>
 <h2>
 <ul>
@@ -35,12 +50,5 @@ f.write("""
 """%(today,args[1],args[2],args[3]))
 f.close()
 
-#osというライブラリで現在のカレントディレクトリのパスを取得する
-import os
-#現在のパスに作成された「test_py.html」のパスを作成する
-path = os.getcwd() + "/test_py.html"
-#ターミナルで入力するコマンドを作成する
-cmd = 'open ' + path
 #subprocessというライブラリでターミナルでのコマンド入力を行う
-import subprocess
 subprocess.check_call(cmd.split())
