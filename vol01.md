@@ -26,16 +26,16 @@ $ cd test
 テキストエディタを開き新規ファイルでtest.htmlファイルを作成する。  
 以下のコードを記述し、保存する。
 ````
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="utf-8">
-        <title>Web App Creators</title>
-      </head>
-      <body>
-        <h1 class="title">ローカル環境でHTMLファイルを表示しよう</h1>
-      </body>
-    </html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Web App Creators</title>
+</head>
+<body>
+<h1 class="title">ローカル環境でHTMLファイルを表示しよう</h1>
+</body>
+</html>
 ````
 webブラウザで作成したhtmlファイルを開く  
 ````
