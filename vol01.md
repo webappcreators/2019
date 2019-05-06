@@ -4,7 +4,7 @@
 
 ## 開発環境について
 - バージョン管理システム：[Github](https://github.com/)
-- サーバー：[さくらVPSサーバー](https://vps.sakura.ad.jp/)
+- サーバー：[さくらVPSサーバー](https://vps.sakura.ad.jp/)  
 一番安価なプランを契約して使用する。
 
 - 使用言語：Python3
