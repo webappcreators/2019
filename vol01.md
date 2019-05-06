@@ -20,9 +20,10 @@
 シンプルテキストでHTMLファイルを作成し、ローカル環境でwebブラウザを開く。  
 ターミナルを開き、ホームディレクトリに作業用ディレクトリを作成する。  
     mkdir test  
-    cd test
+    cd test  
 テキストエディタを開き新規ファイルでtest.htmlファイルを作成する。  
 以下のコードを記述し、保存する。
+````
     <!DOCTYPE html>
     <html>
       <head>
@@ -33,10 +34,11 @@
         <h1 class="title">HTML & CSS の開発環境を用意しよう！</h1>
       </body>
     </html>
-
+````
 webブラウザで作成したhtmlファイルを開く  
-    open test.html
-
+````
+$ open test.html
+````
 
 ## ローカル環境でpythonをつかってhtmlファイルを作成する
 Python3を使ってHTMLファイルを作成し、ローカル環境でwebブラウザを開く
