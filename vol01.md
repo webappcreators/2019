@@ -19,12 +19,12 @@ Python3を使ってHTMLファイルを作成し、ローカル環境でwebブラ
 
 ## 公開用サーバーの準備
 さくらVPSでのシステムの基本設定
-[os_sakuravps - sakura vps](https://github.com/ykHakata/summary/blob/master/os_sakuravps.md) でのシステムの基本設定
-[security_sakuravps](https://github.com/ykHakata/summary/blob/master/security_sakuravps.md) - 最低限のセキュリティの設定
-[ssh_sakuravps](https://github.com/ykHakata/summary/blob/master/ssh_sakuravps.md) - ssh 設定 sakura vps と github
+- [os_sakuravps - sakura vps](https://github.com/ykHakata/summary/blob/master/os_sakuravps.md) でのシステムの基本設定
+- [security_sakuravps](https://github.com/ykHakata/summary/blob/master/security_sakuravps.md) - 最低限のセキュリティの設定
+- [ssh_sakuravps](https://github.com/ykHakata/summary/blob/master/ssh_sakuravps.md) - ssh 設定 sakura vps と github
 
 ## webサーバー nginx の準備
-[nginx_sakuravps](https://github.com/ykHakata/summary/blob/master/nginx_sakuravps.md) - sakura vps での nginx の基本設定
+- [nginx_sakuravps](https://github.com/ykHakata/summary/blob/master/nginx_sakuravps.md) - sakura vps での nginx の基本設定
 
 
 ## githubを使ったローカル環境と公開サーバーとの連携
